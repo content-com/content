@@ -4,7 +4,7 @@ import styles from "../../styles/Home/Home.module.css";
 
 const Home = () => {
   return (
-    <main id="landing-main">
+    <main className={styles.landingMain}>
       <div className={styles.firstSectionHome}>
         <div className={styles.firstLeftSectionHome}>
           <div className={styles.principalTextHome}>
