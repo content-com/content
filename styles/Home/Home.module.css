@@ -1,0 +1,61 @@
+.landing-main {
+    margin-top: 100px;
+    padding: 0px 40px;
+}
+
+.firstSectionHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.firstLeftSectionHome {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.firstSectionButtons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+.principalTextHome h1 {
+    font-size: 4rem;
+}
+
+.principalTextHome h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.firstSectionLeftButton {
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 45px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+    background-color: black;
+}
+
+.firstSectionRightButton {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: black;
+    background-color: white;
+}
+
+
