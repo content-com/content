@@ -14,7 +14,7 @@ const Home = () => {
             </h3>
           </div>
           <div className={styles.firstSectionButtons}>
-            <Link href="/profile">
+            <Link href="/register">
               <a className={styles.firstSectionLeftButton}>
                 <span>Get Sponsored&nbsp;</span>
                 <Image
@@ -25,7 +25,7 @@ const Home = () => {
                 ></Image>
               </a>
             </Link>
-            <Link href="/profile">
+            <Link href="/register">
               <a className={styles.firstSectionRightButton}>Find Creators</a>
             </Link>
           </div>
