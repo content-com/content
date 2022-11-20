@@ -1,8 +1,10 @@
-import Form from "../components/Form/Form";
+import Auth from "../components/Auth/Auth";
 
 const register = () => {
   return (
-    <div classname="register__Background"><Form/></div>
+    <>
+      <Auth />
+    </>
   );
 };
 
