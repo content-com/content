@@ -1,0 +1,15 @@
+.navBarIconsDivLoggedIn {
+    height: 24px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBarIconsDiv {
+    height: 24px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
