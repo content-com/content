@@ -19,7 +19,7 @@ const Auth = () => {
         <Image src={bg} layout="fill" objectFit="cover" />
       </div>
       <Register />
-      {/* <Login /> */}
+      <Login />
     </>
   );
 };
