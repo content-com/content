@@ -28,11 +28,11 @@ export const Register = ({ handleLogin }) => {
         <button className={styles.signUpButtonSubmit}>Sign up</button>{" "}
         <p>
           By continuing you accept our standard{" "}
-          <Link href="https://www.linkedin.com/in/agustinpurita/">
+          <Link href="https://www.linkedin.com/company/74515908">
             terms and conditions
           </Link>{" "}
           and our{" "}
-          <Link href="https://www.linkedin.com/in/agustinpurita/">
+          <Link href="https://www.linkedin.com/company/74515908">
             privacy policy
           </Link>
           .

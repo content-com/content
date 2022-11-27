@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins";
+  margin: 0px;
 }
 nav {
   display: flex;
@@ -13,7 +14,7 @@ nav {
   left:0;
   right: 0;
   top:0;
-  height: 45px;
+  height: 46px;
   align-items: center;
   padding: 16px 32px;
   border-bottom: 100px;
