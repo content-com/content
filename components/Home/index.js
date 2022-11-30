@@ -8,10 +8,27 @@ const Home = () => {
       <div className={styles.firstSectionHome}>
         <div className={styles.firstLeftSectionHome}>
           <div className={styles.principalTextHome}>
-            <p className={styles.headPhrase}>Contenido para cada audiencia</p>
-            <p className={styles.subHeadPhrase}>
-            Una plataforma donde creadores y anunciantes se encuentran.Consigue visibilidad ante miles de anunciantes. Encuentra al creador de contenido indicado utilizando nuestras analíticas avanzadas.
-            </p>
+            <p className={styles.headPhrase}>
+              <div className={styles.headPhrase__title}>
+              <p>Contenido</p>
+              <p>&nbsp;para</p>
+              </div>
+              <p>cada audiencia</p>
+              </p>
+            <div className={styles.subHeadPhrase}>
+              <p>
+                Una plataforma donde creadores y anunciantes se
+                encuentran. 
+              </p>
+              <p>
+                Consigue visibilidad ante miles de anunciantes.
+                Encuentra al creador de
+              </p>
+              <p>
+                contenido indicado utilizando nuestras
+                analíticas avanzadas.  
+              </p> 
+            </div>
           </div>
           <div className={styles.firstSectionButtons}>
             <Link href="/register">
@@ -32,12 +49,15 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <Image
-          width="643"
-          height="463"
-          alt="Profile navbar icon"
-          src="/Hero_Ilustration.svg"
-        ></Image>
+        <div className={styles.heroImage}>
+          <Image
+            layout="fixed"
+            width="476.17"
+            height="600"
+            alt="Profile navbar icon"
+            src="/Hero_Ilustration.svg"
+          ></Image>
+        </div>
       </div>
     </main>
   );

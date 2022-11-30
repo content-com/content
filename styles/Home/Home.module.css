@@ -1,124 +1,131 @@
 .landingMain {
-    margin-top: 100px;
-    padding: 0px 40px;
-}
-
-.firstLeftSectionHome {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-}
-
-.firstSectionButtons {
-    display: flex;
-    flex-direction: row;
-    margin-top: 32px;
-    gap: 32px;
-}
-
-.headPhrase {
-    width: 656px;
-    height: 192px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 96px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.subHeadPhrase {
-    width: 656px;
-    height: 72px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: rgba(0, 0, 0, 0.5);
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}  
-
-.principalTextHome h3 {
-    font-size: 1rem;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.firstSectionLeftButton {
-    /* Copie y pegue desde las properties del figma*/
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 12px 16px;
-    gap: 8px;
-    width: 162px;
-    height: 48px;
-    background: #772CE8;
-    border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.buttonText {
-    /* Copie y pegue desde las properties del figma*/
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    outline: 0;
-}
-
-.firstSectionRightButton {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 12px 16px;
-    gap: 8px;
-    width: 169px;
-    height: 48px;
-    background: #000000;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  margin-top: 100px;
+  padding: 0px 40px;
 }
 
 .firstSectionHome {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;  
+  position: absolute;
+  height: 80vh;
+  left: 85px;
+  top: 102px;
+  width: 90vw;
+  justify-content: space-between;
 }
 
-.secondSectionHome{
-    border-radius: 30px;
-    margin-top: 10px;
-    padding: 0px 40px;
-    background-color: black;
-    width: auto;
-    height: 5000px;
+.firstLeftSectionHome {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
+.firstSectionButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
 
+.headPhrase {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1px;  
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 656px;
+  margin-bottom: 32px;
+}
+
+.headPhrase__title {
+  display: flex;
+  flex-direction: row;
+}
+
+.headPhrase__title > p:nth-child(1) {
+  color: #7250F8;
+
+}
+
+.headPhrase__title > p {
+  margin-bottom: 32px;
+}
+
+.subHeadPhrase {
+  width: 656px;
+  height: 72px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 8px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.subHeadPhrase > p {
+  margin-top: 0px;
+}
+
+.firstSectionLeftButton {
+  /* Copie y pegue desde las properties del figma*/
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 162px;
+  height: 48px;
+  background: #772ce8;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buttonText {
+  /* Copie y pegue desde las properties del figma*/
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  outline: 0;
+}
+
+.firstSectionRightButton {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 169px;
+  height: 48px;
+  background: #000000;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.secondSectionHome {
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 40px;
+  background-color: black;
+  width: auto;
+  height: 5000px;
+}
