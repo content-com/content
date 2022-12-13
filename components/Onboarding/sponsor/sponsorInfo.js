@@ -32,30 +32,38 @@ const SponsorInfo = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.information}>
-                    <div className={styles.title}>
-                        Queremos saber más sobre tu marca...
-                        <div className={styles.subTitle}>
-                            Necesitamos algunos datos para poder ayudarte a conseguir los creadores de contenido que estás buscando.
+                <div className={styles.informationAndHeroPicture}>
+                    <div className={styles.information}>
+                        <div className={styles.title}>
+                            Queremos saber más sobre tu marca...
+                            <div className={styles.subTitle}>
+                                Necesitamos algunos datos para poder ayudarte a conseguir los creadores de contenido que estás buscando.
+                            </div>
+                        </div>
+                        <div className={styles.sponsor_nameAndDescription}>
+                            <div className={styles.sponsor_name}>
+                                <a className={styles.sponsor_name_text}>Nombre de la marca</a>
+                                <input className={styles.sponsor_name_input} type="text" placeholder="Ingresa el nombre de tu marca"></input>
+                            </div>
+                            <div className={styles.sponsor_description}>
+                                <div className={styles.sponsor_description_text}>
+                                    <a>Descripción</a>
+                                    <a>Máx. 300 caracteres</a>
+                                </div>
+                                <textarea className={styles.sponsor_description_input} type="text" placeholder="Cuéntanos sobre tu marca."></textarea>
+                            </div>
+                            <button className={styles.continueButton}>Continuar</button>
                         </div>
                     </div>
-                    <div className={styles.sponsor_nameAndDescription}>
-                        <div className={styles.sponsor_name}>
-                            <a className={styles.sponsor_name_text}>Nombre de la marca</a>
-                            <input className={styles.sponsor_name_input} type="text" placeholder="Ingrese el nombre de tu marca"></input>
-                        </div>
-                        <div className={styles.sponsor_description}>
-                            <div className={styles.sponsor_description_text}>
-                                <a className={styles.sponsor_description_text_description}>Descripcion</a>
-                                <a className={styles.sponsor_description_text_maxChars}>Máx. 300 caracteres</a>
-                            </div>
-                            <textarea className={styles.sponsor_description_input} type="text" placeholder="Cuéntanos sobre tu marca"></textarea>
-                        </div>
+                    <div className={styles.heroPicture}>
+                        <Image
+                            width="446"
+                            height="527"
+                            alt="arrow"
+                            src="/sponsorOnboardingHero.svg"
+                        ></Image>
                     </div>
                 </div>
-            </div>
-            <div className={styles.heroPicture}>
-                foto
             </div>
         </div>
     );
