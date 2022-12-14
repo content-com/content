@@ -124,13 +124,12 @@
     color: #808080
 }
 
-.sponsor_tags {
-    width: 27vw;
-    height: 2vh;
+.sponsor_description {
     display: flex;
     flex-direction: column;
+    width: 27vw;
+    height: 17vh;
     margin-top: 32px;
-    background-color: aqua;
 }
 
 .sponsor_tags_text {
@@ -143,27 +142,26 @@
     margin-bottom: 5px;
 }
 
-.sponsor_description {
-    display: flex;
-    flex-direction: column;
-    width: 27vw;
-    height: 17vh;
-    margin-top: 32px;
-}
-
-.sponsor_description_text {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .sponsor_tags_input {
     width: 27vw;
     height: 15vw;
     box-sizing: border-box;
     border: 1px solid #CBD2E0;
     border-radius: 8px;
-    resize: none;
+}
+
+.sponsor_tags_input > button {
+    background: #EAEDF2;
+    border-radius: 100px;
+    border: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    padding: 6px 12px;
+    margin: 12px 0px 0px 8px;
 }
 
 .sponsor_tags_buttons {
@@ -212,5 +210,5 @@
 }
 
 .heroPicture {
-    margin-top: 62px;    
+    margin-top: 80px;
 }

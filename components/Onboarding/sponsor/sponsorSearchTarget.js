@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../../../styles/Onboarding/Sponsor/SponsorSearchTarget.module.css";
 
 const SponsorSearchTarget = () => {
+
     return (
         <div className={styles.layout}>
             <div className={styles.form}>
@@ -43,9 +44,50 @@ const SponsorSearchTarget = () => {
                             <div className={styles.sponsor_tags_text}>
                                 <a>Tags</a>
                             </div>
-                            <div className={styles.sponsor_tags_input} type="text"></div>
+                            <div id="selected-tags" className={styles.sponsor_tags_input}>
+                                <button>Porro
+                                    <a>&nbsp;&nbsp;</a> 
+                                    <Image
+                                        className={styles.cross}
+                                        width="8.7"
+                                        height="8.7"
+                                        alt="arrow"
+                                        src="/cross.svg"
+                                    ></Image>
+                                </button>
+                                <button>Trabas
+                                    <a>&nbsp;&nbsp;</a> 
+                                    <Image
+                                        className={styles.cross}
+                                        width="8.7"
+                                        height="8.7"
+                                        alt="arrow"
+                                        src="/cross.svg"
+                                    ></Image>
+                                </button>
+                                <button>Messi
+                                    <a>&nbsp;&nbsp;</a> 
+                                    <Image
+                                        className={styles.cross}
+                                        width="8.7"
+                                        height="8.7"
+                                        alt="arrow"
+                                        src="/cross.svg"
+                                    ></Image>
+                                </button>
+                                <button>Ogro
+                                    <a>&nbsp;&nbsp;</a> 
+                                    <Image
+                                        className={styles.cross}
+                                        width="8.7"
+                                        height="8.7"
+                                        alt="arrow"
+                                        src="/cross.svg"
+                                    ></Image>
+                                </button>
+                            </div>
                         </div>
-                        <div className={styles.sponsor_tags_buttons}>
+                        <div id="tags" className={styles.sponsor_tags_buttons}>
                             <button>Gaming</button>
                             <button>Educación</button>
                             <button>Humor</button>
@@ -57,10 +99,6 @@ const SponsorSearchTarget = () => {
                             <button>Cultura</button>
                             <button>Negocios</button>
                             <button>Tecnología</button>
-                            <button>Porrongo</button>
-                            <button>Nazi</button>
-                            <button>Trabas</button>
-                            <button>Tusi</button>
                             <button>Música</button>
                         </div>
 
