@@ -4,8 +4,8 @@ import SponsorSearchTarget from "./sponsorSearchTarget";
 export const SponsorOnboarding = () => {
     return (
       <>
-        <SponsorInfo />
-        {/* <SponsorSearchTarget/> */}
+        {/* <SponsorInfo /> */}
+        <SponsorSearchTarget/>
       </>
     );
 };

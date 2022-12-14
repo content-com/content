@@ -79,7 +79,7 @@
     border-radius: 4px;
 }
 
-.informationAndHeroPicture{
+.informationAndHeroPicture {
     display: flex;
     flex-direction: row;
 }
@@ -203,9 +203,11 @@
 }
 
 .continueButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
     width: 27vw;
     height: 6vh;
-    margin-top: 32px;
     background: #BFBFBF;
     opacity: 0.32;
     border-radius: 8px;
@@ -216,6 +218,6 @@
     line-height: 24px;
 }
 
-.heroPicture{
-    margin-top: 62px;    
+.heroPicture {
+    margin-top: 62px;
 }
